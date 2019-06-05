@@ -42,18 +42,4 @@ public class MyScrollView extends ScrollView {
         }
         return super.dispatchTouchEvent(event);
     }
-
-    //内部拦截法
-//    @Override
-//    public boolean onInterceptTouchEvent(MotionEvent ev) {
-//        getParent().requestDisallowInterceptTouchEvent(true);
-//        return super.onInterceptTouchEvent(ev);
-//    }
-
-
-    //外部拦截法
-//    @Override
-//    public boolean onInterceptTouchEvent(MotionEvent ev) {
-//        return false;
-//    }
 }
